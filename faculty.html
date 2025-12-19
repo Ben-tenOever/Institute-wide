@@ -75,7 +75,26 @@ nav{margin:0.75rem 2rem;} nav a{margin-right:0.8rem; color:#410093; text-decorat
 <div class="grid" id="grid"></div>
 <footer>Data embedded for Github Pages and local viewing</footer>
 </main>
-<script src="faculty_data.js"></script>
+<script src="faculty_data.js">
+function __searchableText(card){
+  const clone = card.cloneNode(true);
+
+  // Remove the Complementary Areas block from searchable text only
+  const labels = clone.querySelectorAll("h1,h2,h3,h4,h5,h6,strong,b,.label,.field-label");
+  for (const el of labels){
+    const t = (el.textContent || "").trim().toLowerCase();
+    if (t === "complementary areas" || t === "complementary area"){
+      const block = el.closest("section, .section, .block, .field, .row, .card-section, .card, div, li") || el.parentElement;
+      if (block) block.remove();
+    }
+  }
+
+  // Also remove anything explicitly marked as excluded
+  clone.querySelectorAll('[data-search-exclude="1"]').forEach(n => n.remove());
+
+  return (clone.textContent || "").toLowerCase();
+}
+</script>
 <script>
 
 function data() { return window.__FACULTY_DATA__; }
