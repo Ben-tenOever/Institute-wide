@@ -1,6 +1,4 @@
-<!DOCTYPE html>
-
-<html lang="en">
+<!DOCTYPE html> <html lang="en">
 <head>
 <meta charset="utf-8"/>
 <meta content="width=device-width, initial-scale=1" name="viewport"/>
@@ -31,18 +29,11 @@ a { color:var(--nyu); }
 footer { color:var(--muted); font-size:12px; padding:18px 0 0 0; }
 table { width:100%; border-collapse:collapse; }
 th, td { text-align:left; padding:8px 10px; border-bottom:1px solid var(--border); vertical-align:top; }
-th { font-size:12px; color:var(--muted); text-transform:uppercase; letter-spacing:.04em; }
-
-nav{margin:0.75rem 2rem;} nav a{margin-right:0.8rem; color:#410093; text-decoration:none;} nav a:hover{text-decoration:underline;}
-
-
-/* header tabs */
+th { font-size:12px; color:var(--muted); text-transform:uppercase; letter-spacing:.04em; } nav{margin:0.75rem 2rem;} nav a{margin-right:0.8rem; color:#410093; text-decoration:none;} nav a:hover{text-decoration:underline;} /* header tabs */
 .tabs { display:flex; gap:10px; margin-top:12px; flex-wrap:wrap; }
 .tab { display:inline-block; color:#fff; text-decoration:none; opacity:.96; padding:8px 12px; border:1px solid rgba(255,255,255,.30); border-radius:999px; }
 .tab:hover { opacity:1; border-color:rgba(255,255,255,.55); }
-.tab.active { background:rgba(255,255,255,.12); }
-
-.subnav { margin-top:10px; display:flex; gap:12px; flex-wrap:wrap; }
+.tab.active { background:rgba(255,255,255,.12); } .subnav { margin-top:10px; display:flex; gap:12px; flex-wrap:wrap; }
 .subnav a { color:#fff; opacity:.9; text-decoration:none; }
 .subnav a:hover { opacity:1; text-decoration:underline; }
 </style>
@@ -50,112 +41,33 @@ nav{margin:0.75rem 2rem;} nav a{margin-right:0.8rem; color:#410093; text-decorat
 <body>
 <header>
 <h1>Profile</h1>
-<p>Single faculty record</p>
-
-    <div class="tabs">
-      <a class="tab" href="teams_two.html">Paired Collaborations</a>
-      <a class="tab" href="teams_programs.html">Team Collaborations</a>
-    </div>
-    <div class="subnav">
-      <a href="index.html">Faculty Profiles</a>
-      <a href="opportunities.html">Opportunities</a>
-    </div>
-
-</header>
+<p>Single faculty record</p> <div class="tabs"> <a class="tab" href="teams_two.html">Paired Collaborations</a> <a class="tab" href="teams_programs.html">Team Collaborations</a> </div> <div class="subnav"> <a href="index.html">Faculty Profiles</a> </div> </header>
 <main>
 <div class="panel" id="p">Loading</div>
 <footer>Profile view</footer>
 </main>
 <script src="faculty_data.js"></script>
-<script>
-
-function data() { return window.__FACULTY_DATA__; }
-function norm(s) { return (s||"").toLowerCase(); }
-function tokenize(s) {
-  const stop = new Set(["the","and","or","of","to","in","for","a","an","with","on","by","from","as","at","into","that","this","are","is","be","can","will","not","nofo","foa","nih","clinical","trial","optional","allowed"]);
-  return norm(s).replace(/[^a-z0-9 ]+/g," ").split(/\s+/).filter(x=>x && x.length>2 && !stop.has(x));
+<script> function data() { return window.__FACULTY_DATA__; }
+function norm(s) { return (s | "").toLowerCase(); }
+function tokenize(s) { const stop = new Set(["the","and","or","of","to","in","for","a","an","with","on","by","from","as","at","into","that","this","are","is","be","can","will","not","nofo","foa","nih","clinical","trial","optional","allowed"]); return norm(s).replace(/[^a-z0-9 ]+/g," ").split(/\s+/).filter(x=>x && x.length>2 && !stop.has(x));
 }
-function setFrom(arr) { return new Set(arr||[]); }
-function jaccard(a,b) {
-  const A=setFrom(a), B=setFrom(b);
-  let inter=0;
-  for (const x of A) if (B.has(x)) inter++;
-  const union=A.size + B.size - inter;
-  if (!union) return 0;
-  return inter / union;
+function setFrom(arr) { return new Set(arr | []); }
+function jaccard(a,b) { const A=setFrom(a), B=setFrom(b); let inter=0; for (const x of A) if (B.has(x)) inter++; const union=A.size + B.size - inter; if (!union) return 0; return inter / union;
 }
-function facultyText(f) {
-  return [
-    f.name, f.title,
-    (f.affiliations||[]).join(" "),
-    f.lab_synopsis||"",
-    f.common_experiments_raw||"",
-    (f.research_keywords||[]).join(" "),
-    (f.experimental_capabilities||[]).join(" "),
-    (f.model_systems||[]).join(" ")
-  ].join(" ");
+function facultyText(f) { return [ f.name, f.title, (f.affiliations | []).join(" "), f.lab_synopsis | "", f.common_experiments_raw | "", (f.research_keywords | []).join(" "), (f.experimental_capabilities | []).join(" "), (f.model_systems | []).join(" ") ].join(" ");
 }
-function matchScore(f, opp) {
-  const ft = tokenize(facultyText(f));
-  const ot = tokenize([opp.title, (opp.tags||[]).join(" ")].join(" "));
-  const F=new Set(ft), O=new Set(ot);
-  let inter=0;
-  for (const x of O) if (F.has(x)) inter++;
-  const denom=Math.sqrt(O.size||1);
-  return inter / denom;
+function matchScore(f, opp) { const ft = tokenize(facultyText(f)); const ot = tokenize([opp.title, (opp.tags | []).join(" ")].join(" ")); const F=new Set(ft), O=new Set(ot); let inter=0; for (const x of O) if (F.has(x)) inter++; const denom=Math.sqrt(O.size | 1); return inter / denom;
 }
-function sharedTerms(f, opp, limit=6) {
-  const ft = tokenize(facultyText(f));
-  const ot = tokenize([opp.title, (opp.tags||[]).join(" ")].join(" "));
-  const F=new Set(ft), O=new Set(ot);
-  const out=[];
-  for (const x of O) if (F.has(x)) out.push(x);
-  return out.slice(0, limit);
+function sharedTerms(f, opp, limit=6) { const ft = tokenize(facultyText(f)); const ot = tokenize([opp.title, (opp.tags | []).join(" ")].join(" ")); const F=new Set(ft), O=new Set(ot); const out=[]; for (const x of O) if (F.has(x)) out.push(x); return out.slice(0, limit);
+} function qs(name) { const u=new URL(window.location.href); return u.searchParams.get(name);
 }
-
-function qs(name) {
-  const u=new URL(window.location.href);
-  return u.searchParams.get(name);
-}
-function ul(items) {
-  if (!items || !items.length) return '<div class="small">None listed</div>';
-  return '<ul>' + items.map(x=>`<li>${x}</li>`).join('') + '</ul>';
+function ul(items) { if (!items | !items.length) return '<div class="small">None listed</div>'; return '<ul>' + items.map(x=>`<li>${x}</li>`).join('') + '</ul>';
 }
 const d=data();
 const id=qs("id");
 const f=d.faculty.find(x=>x.faculty_id===id);
-if (!f) {
-  document.getElementById("p").innerHTML = "Profile not found";
-} else {
-  const badges=(f.affiliations||[]).map(a=>`<span class="badge">${a}</span>`).join("") + (f.focus_groups||[]).map(a=>`<span class="badge">${a}</span>`).join("");
-  const pubs=(f.publications||[]).length ? ul(f.publications) : '<div class="small">None listed</div>';
-  document.getElementById("p").innerHTML = `
-    <div style="display:flex; justify-content:space-between; gap:12px; flex-wrap:wrap">
-      <div>
-        <div style="font-size:20px; font-weight:700">${f.name}</div>
-        <div class="small" style="margin-top:6px">${f.title||""}</div>
-      </div>
-      <div class="badges">${badges}</div>
-    </div>
-    <hr/>
-    <div style="font-weight:700">Lab synopsis</div>
-    <div style="margin-top:6px; line-height:1.55">${(f.lab_synopsis||"").replaceAll("\n","<br/>")}</div>
-    <hr/>
-    <div style="font-weight:700">Common platforms and experiments</div>
-    <div style="margin-top:6px; line-height:1.55">${(f.common_experiments_raw||"").replaceAll("\n","<br/>") || '<span class="small">None listed</span>'}</div>
-    <hr/>
-    <div style="font-weight:700">Research keywords</div>
-    ${ul(f.research_keywords)}
-    <hr/>
-    <div style="font-weight:700">Experimental capabilities</div>
-    ${ul(f.experimental_capabilities)}
-    <hr/>
-    <div style="font-weight:700">Model systems</div>
-    ${ul(f.model_systems)}
-    <hr/>
-    <div style="font-weight:700">Documents ingested</div>
-    ${pubs}
-  `;
+if (!f) { document.getElementById("p").innerHTML = "Profile not found";
+} else { const badges=(f.affiliations | []).map(a=>`<span class="badge">${a}</span>`).join("") + (f.focus_groups | []).map(a=>`<span class="badge">${a}</span>`).join(""); const pubs=(f.publications | []).length ? ul(f.publications) : '<div class="small">None listed</div>'; document.getElementById("p").innerHTML = ` <div style="display:flex; justify-content:space-between; gap:12px; flex-wrap:wrap"> <div> <div style="font-size:20px; font-weight:700">${f.name}</div> <div class="small" style="margin-top:6px">${f.title | ""}</div> </div> <div class="badges">${badges}</div> </div> <hr/> <div style="font-weight:700">Lab synopsis</div> <div style="margin-top:6px; line-height:1.55">${(f.lab_synopsis | "").replaceAll("\n","<br/>")}</div> <hr/> <div style="font-weight:700">Common platforms and experiments</div> <div style="margin-top:6px; line-height:1.55">${(f.common_experiments_raw | "").replaceAll("\n","<br/>") | '<span class="small">None listed</span>'}</div> <hr/> <div style="font-weight:700">Research keywords</div> ${ul(f.research_keywords)} <hr/> <div style="font-weight:700">Experimental capabilities</div> ${ul(f.experimental_capabilities)} <hr/> <div style="font-weight:700">Model systems</div> ${ul(f.model_systems)} <hr/> <div style="font-weight:700">Documents ingested</div> ${pubs} `;
 }
 </script>
 </body>
