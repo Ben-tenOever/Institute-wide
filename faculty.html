@@ -1,0 +1,167 @@
+<!DOCTYPE html>
+
+<html lang="en">
+<head>
+<meta charset="utf-8"/>
+<meta content="width=device-width, initial-scale=1" name="viewport"/>
+<title>Faculty</title>
+<style>
+:root { --bg:#f5f5f7; --text:#222; --muted:#666; --card:#fff; --border:#e6e6ea; --nyu:#410093; --nyu2:#5f2ca1; }
+* { box-sizing:border-box; }
+body { margin:0; font-family:system-ui, -apple-system, BlinkMacSystemFont, "Segoe UI", sans-serif; background:var(--bg); color:var(--text); }
+header { background:linear-gradient(90deg,var(--nyu),var(--nyu2)); color:#fff; padding:22px 24px; }
+header h1 { margin:0 0 6px 0; font-size:22px; font-weight:700; }
+header p { margin:0; opacity:.92; }
+nav { display:flex; gap:12px; margin-top:10px; flex-wrap:wrap; }
+nav a { color:#fff; text-decoration:none; opacity:.95; padding:6px 10px; border:1px solid rgba(255,255,255,.25); border-radius:10px; }
+nav a:hover { opacity:1; border-color:rgba(255,255,255,.55); }
+main { max-width:1180px; margin:0 auto; padding:18px 16px 44px 16px; }
+.panel { background:var(--card); border:1px solid var(--border); border-radius:16px; padding:14px; box-shadow:0 6px 18px rgba(0,0,0,.06); }
+.grid { display:grid; grid-template-columns:repeat(auto-fill,minmax(330px,1fr)); gap:14px; }
+.card { background:var(--card); border:1px solid var(--border); border-radius:16px; padding:14px; box-shadow:0 6px 18px rgba(0,0,0,.06); }
+.card h2 { margin:0 0 6px 0; font-size:18px; }
+.small { color:var(--muted); font-size:13px; line-height:1.35; }
+.controls { display:flex; gap:10px; flex-wrap:wrap; align-items:center; }
+input[type="search"] { width:min(520px,100%); padding:10px 12px; border-radius:12px; border:1px solid var(--border); outline:none; }
+select { padding:10px 12px; border-radius:12px; border:1px solid var(--border); }
+.badges { display:flex; gap:8px; flex-wrap:wrap; margin-top:8px; }
+.badge { font-size:12px; padding:4px 10px; border-radius:999px; border:1px solid var(--border); background:#fafafa; }
+hr { border:none; border-top:1px solid var(--border); margin:12px 0; }
+a { color:var(--nyu); }
+footer { color:var(--muted); font-size:12px; padding:18px 0 0 0; }
+table { width:100%; border-collapse:collapse; }
+th, td { text-align:left; padding:8px 10px; border-bottom:1px solid var(--border); vertical-align:top; }
+th { font-size:12px; color:var(--muted); text-transform:uppercase; letter-spacing:.04em; }
+
+nav{margin:0.75rem 2rem;} nav a{margin-right:0.8rem; color:#410093; text-decoration:none;} nav a:hover{text-decoration:underline;}
+
+
+/* header tabs */
+.tabs { display:flex; gap:10px; margin-top:12px; flex-wrap:wrap; }
+.tab { display:inline-block; color:#fff; text-decoration:none; opacity:.96; padding:8px 12px; border:1px solid rgba(255,255,255,.30); border-radius:999px; }
+.tab:hover { opacity:1; border-color:rgba(255,255,255,.55); }
+.tab.active { background:rgba(255,255,255,.12); }
+
+.subnav { margin-top:10px; display:flex; gap:12px; flex-wrap:wrap; }
+.subnav a { color:#fff; opacity:.9; text-decoration:none; }
+.subnav a:hover { opacity:1; text-decoration:underline; }
+</style>
+</head>
+<body>
+<header>
+<h1>Faculty</h1>
+<p>Search and filter the current profile set</p>
+
+    <div class="tabs">
+      <a class="tab" href="teams_two.html">Paired Collaborations</a>
+      <a class="tab" href="teams_programs.html">Team Collaborations</a>
+    </div>
+    <div class="subnav">
+      <a href="index.html">Faculty Profiles</a>
+      <a href="opportunities.html">Opportunities</a>
+    </div>
+
+</header>
+<main>
+<div class="panel">
+<div class="controls">
+<input id="q" placeholder="Search name, synopsis, keywords, platforms" type="search"/>
+<select id="dept"></select>
+<select id="group"></select>
+</div>
+<div class="small" id="count" style="margin-top:10px"></div>
+</div>
+<div style="height:14px"></div>
+<div class="grid" id="grid"></div>
+<footer>Data embedded for Github Pages and local viewing</footer>
+</main>
+<script src="faculty_data.js"></script>
+<script>
+
+function data() { return window.__FACULTY_DATA__; }
+function norm(s) { return (s||"").toLowerCase(); }
+function tokenize(s) {
+  const stop = new Set(["the","and","or","of","to","in","for","a","an","with","on","by","from","as","at","into","that","this","are","is","be","can","will","not","nofo","foa","nih","clinical","trial","optional","allowed"]);
+  return norm(s).replace(/[^a-z0-9 ]+/g," ").split(/\s+/).filter(x=>x && x.length>2 && !stop.has(x));
+}
+function setFrom(arr) { return new Set(arr||[]); }
+function jaccard(a,b) {
+  const A=setFrom(a), B=setFrom(b);
+  let inter=0;
+  for (const x of A) if (B.has(x)) inter++;
+  const union=A.size + B.size - inter;
+  if (!union) return 0;
+  return inter / union;
+}
+function facultyText(f) {
+  return [
+    f.name, f.title,
+    (f.affiliations||[]).join(" "),
+    f.lab_synopsis||"",
+    f.common_experiments_raw||"",
+    (f.research_keywords||[]).join(" "),
+    (f.experimental_capabilities||[]).join(" "),
+    (f.model_systems||[]).join(" ")
+  ].join(" ");
+}
+function matchScore(f, opp) {
+  const ft = tokenize(facultyText(f));
+  const ot = tokenize([opp.title, (opp.tags||[]).join(" ")].join(" "));
+  const F=new Set(ft), O=new Set(ot);
+  let inter=0;
+  for (const x of O) if (F.has(x)) inter++;
+  const denom=Math.sqrt(O.size||1);
+  return inter / denom;
+}
+function sharedTerms(f, opp, limit=6) {
+  const ft = tokenize(facultyText(f));
+  const ot = tokenize([opp.title, (opp.tags||[]).join(" ")].join(" "));
+  const F=new Set(ft), O=new Set(ot);
+  const out=[];
+  for (const x of O) if (F.has(x)) out.push(x);
+  return out.slice(0, limit);
+}
+
+function uniq(arr) { return Array.from(new Set(arr)); }
+function card(f) {
+  const aff=(f.affiliations||[]).map(a=>`<span class="badge">${a}</span>`).join("");
+  const grp=(f.focus_groups||[]).map(a=>`<span class="badge">${a}</span>`).join("");
+  const syn=(f.lab_synopsis||"").trim();
+  const snippet=syn.slice(0, 220) + (syn.length>220 ? "…" : "");
+  return `
+  <div class="card">
+    <h2>${f.name}</h2>
+    <div class="small">${f.title||""}</div>
+    <div class="badges">${aff}${grp}</div>
+    <div class="small" style="margin-top:10px; line-height:1.5">${snippet}</div>
+    <div style="margin-top:10px"><a href="profile.html?id=${encodeURIComponent(f.faculty_id)}">Open profile</a></div>
+  </div>`;
+}
+const d=data();
+const deptSel=document.getElementById("dept");
+const groupSel=document.getElementById("group");
+const depts=["All"].concat(uniq(d.faculty.flatMap(f=>f.affiliations||[])).sort());
+deptSel.innerHTML=depts.map(x=>`<option value="${x}">${x}</option>`).join("");
+const groups=["All"].concat(uniq(d.faculty.flatMap(f=>f.focus_groups||[])).sort());
+groupSel.innerHTML=groups.map(x=>`<option value="${x}">${x}</option>`).join("");
+
+const state={q:"", dept:"All", group:"All"};
+
+function render() {
+  const q=norm(state.q);
+  const hits=d.faculty.filter(f=>{
+    if (state.dept!=="All" && !(f.affiliations||[]).includes(state.dept)) return false;
+    if (state.group!=="All" && !(f.focus_groups||[]).includes(state.group)) return false;
+    if (!q) return true;
+    return norm(facultyText(f)).includes(q);
+  });
+  document.getElementById("count").textContent = hits.length + " faculty shown";
+  document.getElementById("grid").innerHTML = hits.map(card).join("");
+}
+document.getElementById("q").addEventListener("input", e=>{ state.q=e.target.value; render(); });
+deptSel.addEventListener("change", e=>{ state.dept=e.target.value; render(); });
+groupSel.addEventListener("change", e=>{ state.group=e.target.value; render(); });
+render();
+</script>
+</body>
+</html>
