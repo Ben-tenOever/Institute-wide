@@ -1,0 +1,23 @@
+{
+  "label": "Institute-wide",
+  "overview": "Institute-wide aggregates all faculty across participating groups for cross-group team building. Use department-specific sites for within-group team suggestions.",
+  "stats": {
+    "faculty_count": 71,
+    "pairs_count": 216,
+    "teams3plus_count": 88,
+    "opportunities_covered": 304
+  },
+  "top_themes": [
+    "cardiovascular disparities",
+    "X linked dystonia parkinsonism",
+    "health disparities",
+    "health equity",
+    "Bacterial mRNA decay mechanisms, including 5′-end-dependent degradation.",
+    "Role of RNA pyrophosphohydrolase (RppH) in initiating decay.",
+    "RNase E one-dimensional diffusion and its regulation by RNA structure and bound obstacles.",
+    "Epitranscriptomic RNA regulation via noncanonical Np₄ and glucose caps that stabilize transcripts.",
+    "Dinucleoside tetraphosphate (Np₄A) alarmones as stress-responsive RNA caps influencing gene expression.",
+    "Single-molecule and biochemical studies of RNA–protein interactions governing decay."
+  ],
+  "top_approaches": []
+}
