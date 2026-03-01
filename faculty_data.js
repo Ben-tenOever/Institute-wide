@@ -152,7 +152,8 @@ window.__FACULTY_DATA__ = {
       "name_canonical": "Ralf Duerr",
       "title": "",
       "affiliations": [
-        "Microbiology"
+        "Microbiology",
+        "Medicine"
       ],
       "affiliations_raw": "Microbiology",
       "affiliations_unmapped": [],
@@ -295,7 +296,8 @@ window.__FACULTY_DATA__ = {
       "name_canonical": "Ramin Herati",
       "title": "",
       "affiliations": [
-        "Microbiology"
+        "Microbiology",
+        "Medicine"
       ],
       "affiliations_raw": "Microbiology",
       "affiliations_unmapped": [],
@@ -1061,7 +1063,8 @@ window.__FACULTY_DATA__ = {
       "name_canonical": "Bo Shopsin",
       "title": "",
       "affiliations": [
-        "Microbiology"
+        "Microbiology",
+        "Medicine"
       ],
       "affiliations_raw": "Microbiology",
       "affiliations_unmapped": [],
@@ -1804,7 +1807,8 @@ window.__FACULTY_DATA__ = {
       "title": "Muriel G & George W Singer Professor of Neuroscience & Physiology and Director, Center for Human Genetics and Genomics",
       "affiliations": [
         "Medicine",
-        "Neuroscience and Physiology"
+        "Neuroscience and Physiology",
+        "Neuroscience"
       ],
       "affiliations_raw": "Neuroscience & Physiology, Medicine",
       "affiliations_unmapped": [],
@@ -1854,7 +1858,8 @@ window.__FACULTY_DATA__ = {
       "name_canonical": "Hakhamanesh Mostafavi",
       "title": "Assistant Professor",
       "affiliations": [
-        "Population Health"
+        "Population Health",
+        "Center for Human Genetics and Genomics"
       ],
       "affiliations_raw": "Center for Human Genetics and Genomics; Department of Population Health, Division of Biostatistics",
       "affiliations_unmapped": [],
@@ -4883,6 +4888,48 @@ window.__FACULTY_DATA__ = {
           "doi": null
         }
       ]
+    },
+    {
+      "source": "pubs_inbox",
+      "faculty_id": "intake_chakravarti_s",
+      "name": "Shukti Chakravarti",
+      "name_canonical": "Shukti Chakravarti",
+      "title": "",
+      "affiliations": [
+        "Ophthalmology"
+      ],
+      "affiliations_raw": "Ophthalmology",
+      "tracks": [],
+      "specialty_areas": "",
+      "lab_synopsis": "",
+      "research_keywords": [],
+      "experimental_capabilities": [],
+      "model_systems": [],
+      "complementary_areas": [],
+      "example_grant_directions": [],
+      "focus_groups": [],
+      "publications": []
+    },
+    {
+      "source": "pubs_inbox",
+      "faculty_id": "intake_ellicott_m",
+      "name": "Matthay Ellicott",
+      "name_canonical": "Matthay Ellicott",
+      "title": "",
+      "affiliations": [
+        "Population Health"
+      ],
+      "affiliations_raw": "Population Health",
+      "tracks": [],
+      "specialty_areas": "",
+      "lab_synopsis": "",
+      "research_keywords": [],
+      "experimental_capabilities": [],
+      "model_systems": [],
+      "complementary_areas": [],
+      "example_grant_directions": [],
+      "focus_groups": [],
+      "publications": []
     }
   ]
 };
