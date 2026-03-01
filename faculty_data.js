@@ -192,7 +192,20 @@ window.__FACULTY_DATA__ = {
         "HIV/retroviral pathogenesis & cure strategies (NIAID HIV/AIDS research programs)."
       ],
       "focus_groups": [],
-      "publications": []
+      "publications": [
+        {
+          "file": "/Users/tenoeb01/Desktop/Galaxy Files/pubs_inbox/Medicine/Duerr, Ralf/Duerr et al., eBioMedicine 2023oct_Selective_anonymous.pdf",
+          "title": null,
+          "year": null,
+          "doi": null
+        },
+        {
+          "file": "/Users/tenoeb01/Desktop/Galaxy Files/pubs_inbox/Medicine/Duerr, Ralf/Gambaro, Duerr et al., Virus Evolution 2024ma_anonymous.pdf",
+          "title": null,
+          "year": null,
+          "doi": null
+        }
+      ]
     },
     {
       "source": "microbiology_site",
@@ -242,7 +255,38 @@ window.__FACULTY_DATA__ = {
         "Systems and data-driven biology (multi-omics / single-cell initiatives; collaborative U01/U19 mechanisms)."
       ],
       "focus_groups": [],
-      "publications": []
+      "publications": [
+        {
+          "file": "/Users/tenoeb01/Desktop/Galaxy Files/pubs_inbox/Microbiology/Garabedian, Michael/A Multivalent Peptoid Conjugate Modulates And_anonymous.pdf",
+          "title": null,
+          "year": null,
+          "doi": null
+        },
+        {
+          "file": "/Users/tenoeb01/Desktop/Galaxy Files/pubs_inbox/Microbiology/Garabedian, Michael/Inhibiting LXRα phosphorylation in hematopoie_anonymous.pdf",
+          "title": null,
+          "year": null,
+          "doi": null
+        },
+        {
+          "file": "/Users/tenoeb01/Desktop/Galaxy Files/pubs_inbox/Microbiology/Garabedian, Michael/The Laryngoscope - 2023 - Nakamura - Concentr_anonymous.pdf",
+          "title": null,
+          "year": null,
+          "doi": null
+        },
+        {
+          "file": "/Users/tenoeb01/Desktop/Galaxy Files/pubs_inbox/Microbiology/Garabedian, Michael/arango-lievano-et-al-2019-persistence-of-lear_anonymous.pdf",
+          "title": null,
+          "year": null,
+          "doi": null
+        },
+        {
+          "file": "/Users/tenoeb01/Desktop/Galaxy Files/pubs_inbox/Microbiology/Garabedian, Michael/journal.pgen.1008540 (4)_anonymous.pdf",
+          "title": null,
+          "year": null,
+          "doi": null
+        }
+      ]
     },
     {
       "source": "microbiology_site",
@@ -337,7 +381,38 @@ window.__FACULTY_DATA__ = {
         "Fundamental and translational immunology (NIAID basic immunology R01s; collaborative immunology programs)."
       ],
       "focus_groups": [],
-      "publications": []
+      "publications": [
+        {
+          "file": "/Users/tenoeb01/Desktop/Galaxy Files/pubs_inbox/Microbiology/Khanna, Kamal/1-s2.0-S1074761325001645-main_anonymous.pdf",
+          "title": null,
+          "year": null,
+          "doi": null
+        },
+        {
+          "file": "/Users/tenoeb01/Desktop/Galaxy Files/pubs_inbox/Microbiology/Khanna, Kamal/PIIS2211124723001821_anonymous.pdf",
+          "title": null,
+          "year": null,
+          "doi": null
+        },
+        {
+          "file": "/Users/tenoeb01/Desktop/Galaxy Files/pubs_inbox/Microbiology/Khanna, Kamal/ddaf087_anonymous.pdf",
+          "title": null,
+          "year": null,
+          "doi": null
+        },
+        {
+          "file": "/Users/tenoeb01/Desktop/Galaxy Files/pubs_inbox/Microbiology/Khanna, Kamal/s43587-025-00952-9 (2)_anonymous.pdf",
+          "title": null,
+          "year": null,
+          "doi": null
+        },
+        {
+          "file": "/Users/tenoeb01/Desktop/Galaxy Files/pubs_inbox/Microbiology/Khanna, Kamal/sciimmunol.aax8756 (1)_anonymous.pdf",
+          "title": null,
+          "year": null,
+          "doi": null
+        }
+      ]
     },
     {
       "source": "microbiology_site",
@@ -383,7 +458,38 @@ window.__FACULTY_DATA__ = {
         "Cancer biology & tumor microenvironment (NCI mechanistic R01s; immuno-oncology initiatives)."
       ],
       "focus_groups": [],
-      "publications": []
+      "publications": [
+        {
+          "file": "/Users/tenoeb01/Desktop/Galaxy Files/pubs_inbox/Microbiology/Landau, Ned/Cancer_anonymous.pdf",
+          "title": null,
+          "year": null,
+          "doi": null
+        },
+        {
+          "file": "/Users/tenoeb01/Desktop/Galaxy Files/pubs_inbox/Microbiology/Landau, Ned/Cell rep_anonymous.pdf",
+          "title": null,
+          "year": null,
+          "doi": null
+        },
+        {
+          "file": "/Users/tenoeb01/Desktop/Galaxy Files/pubs_inbox/Microbiology/Landau, Ned/JCI Insight_anonymous.pdf",
+          "title": null,
+          "year": null,
+          "doi": null
+        },
+        {
+          "file": "/Users/tenoeb01/Desktop/Galaxy Files/pubs_inbox/Microbiology/Landau, Ned/PNAS_anonymous.pdf",
+          "title": null,
+          "year": null,
+          "doi": null
+        },
+        {
+          "file": "/Users/tenoeb01/Desktop/Galaxy Files/pubs_inbox/Microbiology/Landau, Ned/iScience_anonymous.pdf",
+          "title": null,
+          "year": null,
+          "doi": null
+        }
+      ]
     },
     {
       "source": "microbiology_site",
@@ -436,6 +542,30 @@ window.__FACULTY_DATA__ = {
           "title": null,
           "year": null,
           "doi": null
+        },
+        {
+          "file": "/Users/tenoeb01/Desktop/Galaxy Files/pubs_inbox/Microbiology/Lee, James/1-s2.0-S1074761325003668-main_anonymous.pdf",
+          "title": null,
+          "year": null,
+          "doi": null
+        },
+        {
+          "file": "/Users/tenoeb01/Desktop/Galaxy Files/pubs_inbox/Microbiology/Lee, James/2025.06.19.660632v1.full_anonymous.pdf",
+          "title": null,
+          "year": null,
+          "doi": null
+        },
+        {
+          "file": "/Users/tenoeb01/Desktop/Galaxy Files/pubs_inbox/Microbiology/Lee, James/PIIS0092867422009205_anonymous.pdf",
+          "title": null,
+          "year": null,
+          "doi": null
+        },
+        {
+          "file": "/Users/tenoeb01/Desktop/Galaxy Files/pubs_inbox/Microbiology/Lee, James/elife-49787-v2_anonymous.pdf",
+          "title": null,
+          "year": null,
+          "doi": null
         }
       ]
     },
@@ -483,7 +613,38 @@ window.__FACULTY_DATA__ = {
         "Systems and data-driven biology (multi-omics / single-cell initiatives; collaborative U01/U19 mechanisms)."
       ],
       "focus_groups": [],
-      "publications": []
+      "publications": [
+        {
+          "file": "/Users/tenoeb01/Desktop/Galaxy Files/pubs_inbox/Microbiology/Mohr, Ian/3d cell reports_anonymous.pdf",
+          "title": null,
+          "year": null,
+          "doi": null
+        },
+        {
+          "file": "/Users/tenoeb01/Desktop/Galaxy Files/pubs_inbox/Microbiology/Mohr, Ian/DIVA Cell rep_anonymous.pdf",
+          "title": null,
+          "year": null,
+          "doi": null
+        },
+        {
+          "file": "/Users/tenoeb01/Desktop/Galaxy Files/pubs_inbox/Microbiology/Mohr, Ian/Genes Dev.-2018-Rubio-1472-84_anonymous.pdf",
+          "title": null,
+          "year": null,
+          "doi": null
+        },
+        {
+          "file": "/Users/tenoeb01/Desktop/Galaxy Files/pubs_inbox/Microbiology/Mohr, Ian/hu-et-al-2021-single-cell-transcriptomics-ide_anonymous.pdf",
+          "title": null,
+          "year": null,
+          "doi": null
+        },
+        {
+          "file": "/Users/tenoeb01/Desktop/Galaxy Files/pubs_inbox/Microbiology/Mohr, Ian/vink-et-al-2021-preventing-translational-inhi_anonymous.pdf",
+          "title": null,
+          "year": null,
+          "doi": null
+        }
+      ]
     },
     {
       "source": "microbiology_site",
@@ -578,7 +739,38 @@ window.__FACULTY_DATA__ = {
         "Systems and data-driven biology (multi-omics / single-cell initiatives; collaborative U01/U19 mechanisms)."
       ],
       "focus_groups": [],
-      "publications": []
+      "publications": [
+        {
+          "file": "/Users/tenoeb01/Desktop/Galaxy Files/pubs_inbox/Microbiology/Pironti, Alejandro/1315.full_anonymous.pdf",
+          "title": null,
+          "year": null,
+          "doi": null
+        },
+        {
+          "file": "/Users/tenoeb01/Desktop/Galaxy Files/pubs_inbox/Microbiology/Pironti, Alejandro/elife-89098-v1_anonymous.pdf",
+          "title": null,
+          "year": null,
+          "doi": null
+        },
+        {
+          "file": "/Users/tenoeb01/Desktop/Galaxy Files/pubs_inbox/Microbiology/Pironti, Alejandro/perault-et-al-2025-enterobacter-hormaechei-re_anonymous.pdf",
+          "title": null,
+          "year": null,
+          "doi": null
+        },
+        {
+          "file": "/Users/tenoeb01/Desktop/Galaxy Files/pubs_inbox/Microbiology/Pironti, Alejandro/savin-et-al-2024-staphylococcus-aureus-senses_anonymous.pdf",
+          "title": null,
+          "year": null,
+          "doi": null
+        },
+        {
+          "file": "/Users/tenoeb01/Desktop/Galaxy Files/pubs_inbox/Microbiology/Pironti, Alejandro/zhou-et-al-2024-an-integrated-strain-level-an_anonymous.pdf",
+          "title": null,
+          "year": null,
+          "doi": null
+        }
+      ]
     },
     {
       "source": "microbiology_site",
@@ -779,7 +971,38 @@ window.__FACULTY_DATA__ = {
         "Systems and data-driven biology (multi-omics / single-cell initiatives; collaborative U01/U19 mechanisms)."
       ],
       "focus_groups": [],
-      "publications": []
+      "publications": [
+        {
+          "file": "/Users/tenoeb01/Desktop/Galaxy Files/pubs_inbox/Microbiology/Schneider, Bob/Abbadi et al w Figs, Suppl_anonymous.pdf",
+          "title": null,
+          "year": null,
+          "doi": null
+        },
+        {
+          "file": "/Users/tenoeb01/Desktop/Galaxy Files/pubs_inbox/Microbiology/Schneider, Bob/PIIS2211124723006575_anonymous.pdf",
+          "title": null,
+          "year": null,
+          "doi": null
+        },
+        {
+          "file": "/Users/tenoeb01/Desktop/Galaxy Files/pubs_inbox/Microbiology/Schneider, Bob/Zwack, Perez-Baos et al_anonymous.pdf",
+          "title": null,
+          "year": null,
+          "doi": null
+        },
+        {
+          "file": "/Users/tenoeb01/Desktop/Galaxy Files/pubs_inbox/Microbiology/Schneider, Bob/sciadv.abo1782_anonymous.pdf",
+          "title": null,
+          "year": null,
+          "doi": null
+        },
+        {
+          "file": "/Users/tenoeb01/Desktop/Galaxy Files/pubs_inbox/Microbiology/Schneider, Bob/zcae026_anonymous.pdf",
+          "title": null,
+          "year": null,
+          "doi": null
+        }
+      ]
     },
     {
       "source": "microbiology_site",
@@ -918,7 +1141,38 @@ window.__FACULTY_DATA__ = {
         "Systems and data-driven biology (multi-omics / single-cell initiatives; collaborative U01/U19 mechanisms)."
       ],
       "focus_groups": [],
-      "publications": []
+      "publications": [
+        {
+          "file": "/Users/tenoeb01/Desktop/Galaxy Files/pubs_inbox/Microbiology/Stapleford, Kenny/1-s2.0-S2211124719307880-main_anonymous.pdf",
+          "title": null,
+          "year": null,
+          "doi": null
+        },
+        {
+          "file": "/Users/tenoeb01/Desktop/Galaxy Files/pubs_inbox/Microbiology/Stapleford, Kenny/journal.pntd.0012534_anonymous.pdf",
+          "title": null,
+          "year": null,
+          "doi": null
+        },
+        {
+          "file": "/Users/tenoeb01/Desktop/Galaxy Files/pubs_inbox/Microbiology/Stapleford, Kenny/journal.ppat.1011972 (1)_anonymous.pdf",
+          "title": null,
+          "year": null,
+          "doi": null
+        },
+        {
+          "file": "/Users/tenoeb01/Desktop/Galaxy Files/pubs_inbox/Microbiology/Stapleford, Kenny/s41467-023-40047-w (1)_anonymous.pdf",
+          "title": null,
+          "year": null,
+          "doi": null
+        },
+        {
+          "file": "/Users/tenoeb01/Desktop/Galaxy Files/pubs_inbox/Microbiology/Stapleford, Kenny/thannickal-et-al-2024-changes-in-the-chikungu_anonymous.pdf",
+          "title": null,
+          "year": null,
+          "doi": null
+        }
+      ]
     },
     {
       "source": "microbiology_site",
@@ -970,7 +1224,38 @@ window.__FACULTY_DATA__ = {
         "Fundamental and translational immunology (NIAID basic immunology R01s; collaborative immunology programs)."
       ],
       "focus_groups": [],
-      "publications": []
+      "publications": [
+        {
+          "file": "/Users/tenoeb01/Desktop/Galaxy Files/pubs_inbox/Microbiology/tenOever, Ben/Aguado et al.pdf",
+          "title": null,
+          "year": null,
+          "doi": null
+        },
+        {
+          "file": "/Users/tenoeb01/Desktop/Galaxy Files/pubs_inbox/Microbiology/tenOever, Ben/Blanco-Melo.pdf",
+          "title": null,
+          "year": null,
+          "doi": null
+        },
+        {
+          "file": "/Users/tenoeb01/Desktop/Galaxy Files/pubs_inbox/Microbiology/tenOever, Ben/Langlois.pdf",
+          "title": null,
+          "year": null,
+          "doi": null
+        },
+        {
+          "file": "/Users/tenoeb01/Desktop/Galaxy Files/pubs_inbox/Microbiology/tenOever, Ben/Schmid.pdf",
+          "title": null,
+          "year": null,
+          "doi": null
+        },
+        {
+          "file": "/Users/tenoeb01/Desktop/Galaxy Files/pubs_inbox/Microbiology/tenOever, Ben/Varble_Bottleneck.pdf",
+          "title": null,
+          "year": null,
+          "doi": null
+        }
+      ]
     },
     {
       "source": "microbiology_site",
@@ -1190,6 +1475,36 @@ window.__FACULTY_DATA__ = {
           "year": null,
           "venue": "review or manifesto",
           "file": "20251020 The Constructionist Manifesto_v9_pap_anonymous.pdf"
+        },
+        {
+          "file": "/Users/tenoeb01/Desktop/Galaxy Files/pubs_inbox/ISG/Boeke, Jef/20251020 The Constructionist Manifesto_v9_pap_anonymous.pdf",
+          "title": null,
+          "year": null,
+          "doi": null
+        },
+        {
+          "file": "/Users/tenoeb01/Desktop/Galaxy Files/pubs_inbox/ISG/Boeke, Jef/Assemblatron Manuscript v3.4_anonymous.pdf",
+          "title": null,
+          "year": null,
+          "doi": null
+        },
+        {
+          "file": "/Users/tenoeb01/Desktop/Galaxy Files/pubs_inbox/ISG/Boeke, Jef/MOLECULAR-CELL-S-23-02084 (reduced)_anonymous.pdf",
+          "title": null,
+          "year": null,
+          "doi": null
+        },
+        {
+          "file": "/Users/tenoeb01/Desktop/Galaxy Files/pubs_inbox/ISG/Boeke, Jef/TAF1 manuscript_0816_clean_anonymous.pdf",
+          "title": null,
+          "year": null,
+          "doi": null
+        },
+        {
+          "file": "/Users/tenoeb01/Desktop/Galaxy Files/pubs_inbox/ISG/Boeke, Jef/final nature published_anonymous.pdf",
+          "title": null,
+          "year": null,
+          "doi": null
         }
       ]
     },
@@ -1225,6 +1540,24 @@ window.__FACULTY_DATA__ = {
           "title": null,
           "year": null,
           "doi": null
+        },
+        {
+          "file": "/Users/tenoeb01/Desktop/Galaxy Files/pubs_inbox/Cell Biology/Pei-ju Lu, Catherine/2024 Cassidy Tranplant direct_VCA_anonymous.pdf",
+          "title": null,
+          "year": null,
+          "doi": null
+        },
+        {
+          "file": "/Users/tenoeb01/Desktop/Galaxy Files/pubs_inbox/Cell Biology/Pei-ju Lu, Catherine/2024 HS TLS Immunity wo sup_anonymous.pdf",
+          "title": null,
+          "year": null,
+          "doi": null
+        },
+        {
+          "file": "/Users/tenoeb01/Desktop/Galaxy Files/pubs_inbox/Cell Biology/Pei-ju Lu, Catherine/2025 Lin JID_HS glandular marker_anonymous.pdf",
+          "title": null,
+          "year": null,
+          "doi": null
         }
       ]
     },
@@ -1245,7 +1578,26 @@ window.__FACULTY_DATA__ = {
       "experimental_capabilities": [],
       "model_systems": [],
       "focus_groups": [],
-      "publications": []
+      "publications": [
+        {
+          "file": "/Users/tenoeb01/Desktop/Galaxy Files/pubs_inbox/Cell Biology/Mazzoni, Esteban/Differential abilities to engage inaccessible_anonymous.pdf",
+          "title": null,
+          "year": null,
+          "doi": null
+        },
+        {
+          "file": "/Users/tenoeb01/Desktop/Galaxy Files/pubs_inbox/Cell Biology/Mazzoni, Esteban/Essential transcription factors for induced n_anonymous.pdf",
+          "title": null,
+          "year": null,
+          "doi": null
+        },
+        {
+          "file": "/Users/tenoeb01/Desktop/Galaxy Files/pubs_inbox/Cell Biology/Mazzoni, Esteban/Synthetic regulatory reconstitution reveals p_anonymous.pdf",
+          "title": null,
+          "year": null,
+          "doi": null
+        }
+      ]
     },
     {
       "source": "intake_form",
@@ -1323,6 +1675,24 @@ window.__FACULTY_DATA__ = {
           "title": null,
           "year": null,
           "doi": null
+        },
+        {
+          "file": "/Users/tenoeb01/Desktop/Galaxy Files/pubs_inbox/ISG/Brosh, Ran/2025.10.07.680816.full_anonymous.pdf",
+          "title": null,
+          "year": null,
+          "doi": null
+        },
+        {
+          "file": "/Users/tenoeb01/Desktop/Galaxy Files/pubs_inbox/ISG/Brosh, Ran/Zhang-2023-Mouse genome rewriting and tailori_anonymous.pdf",
+          "title": null,
+          "year": null,
+          "doi": null
+        },
+        {
+          "file": "/Users/tenoeb01/Desktop/Galaxy Files/pubs_inbox/ISG/Brosh, Ran/Zhao-2023-CREEPY_ CRISPR-mediated editing of_anonymous.pdf",
+          "title": null,
+          "year": null,
+          "doi": null
         }
       ]
     },
@@ -1371,7 +1741,37 @@ window.__FACULTY_DATA__ = {
         "2022-Sang-MolCell_anonymous.pdf",
         "2022-Gutierrez-eLife_anonymous.pdf",
         "2022-Alric-Nature-Physics_anonymous.pdf",
-        "2018-Delarue-Cell_anonymous.pdf"
+        "2018-Delarue-Cell_anonymous.pdf",
+        {
+          "file": "/Users/tenoeb01/Desktop/Galaxy Files/pubs_inbox/ISG/Holt, Liam/2018-Delarue-Cell_anonymous.pdf",
+          "title": null,
+          "year": null,
+          "doi": null
+        },
+        {
+          "file": "/Users/tenoeb01/Desktop/Galaxy Files/pubs_inbox/ISG/Holt, Liam/2022-Alric-Nature-Physics_anonymous.pdf",
+          "title": null,
+          "year": null,
+          "doi": null
+        },
+        {
+          "file": "/Users/tenoeb01/Desktop/Galaxy Files/pubs_inbox/ISG/Holt, Liam/2022-Gutierrez-eLife_anonymous.pdf",
+          "title": null,
+          "year": null,
+          "doi": null
+        },
+        {
+          "file": "/Users/tenoeb01/Desktop/Galaxy Files/pubs_inbox/ISG/Holt, Liam/2022-Sang-MolCell_anonymous.pdf",
+          "title": null,
+          "year": null,
+          "doi": null
+        },
+        {
+          "file": "/Users/tenoeb01/Desktop/Galaxy Files/pubs_inbox/ISG/Holt, Liam/2024-Xie-Polysome-MolCell_anonymous.pdf",
+          "title": null,
+          "year": null,
+          "doi": null
+        }
       ],
       "specialty_areas": "Biophysics of signaling / biomolecular condensates / gene regulation under stress"
     },
@@ -1426,6 +1826,24 @@ window.__FACULTY_DATA__ = {
           "title": null,
           "year": null,
           "doi": null
+        },
+        {
+          "file": "/Users/tenoeb01/Desktop/Galaxy Files/pubs_inbox/Neuroscience/Chakravarti, Aravinda/2025.01.07.25320162v1.full_anonymous.pdf",
+          "title": null,
+          "year": null,
+          "doi": null
+        },
+        {
+          "file": "/Users/tenoeb01/Desktop/Galaxy Files/pubs_inbox/Neuroscience/Chakravarti, Aravinda/FriesAJHG2025_anonymous.pdf",
+          "title": null,
+          "year": null,
+          "doi": null
+        },
+        {
+          "file": "/Users/tenoeb01/Desktop/Galaxy Files/pubs_inbox/Neuroscience/Chakravarti, Aravinda/nihpp-2025.03.11.642686v1_anonymous.pdf",
+          "title": null,
+          "year": null,
+          "doi": null
         }
       ]
     },
@@ -1471,6 +1889,30 @@ window.__FACULTY_DATA__ = {
           "title": null,
           "year": null,
           "doi": null
+        },
+        {
+          "file": "/Users/tenoeb01/Desktop/Galaxy Files/pubs_inbox/Cell Biology/Ryoo, Hyung Don/elife-74047_anonymous.pdf",
+          "title": null,
+          "year": null,
+          "doi": null
+        },
+        {
+          "file": "/Users/tenoeb01/Desktop/Galaxy Files/pubs_inbox/Cell Biology/Ryoo, Hyung Don/jcb_201511073_anonymous.pdf",
+          "title": null,
+          "year": null,
+          "doi": null
+        },
+        {
+          "file": "/Users/tenoeb01/Desktop/Galaxy Files/pubs_inbox/Cell Biology/Ryoo, Hyung Don/s41419-024-06927-9 (1)_anonymous.pdf",
+          "title": null,
+          "year": null,
+          "doi": null
+        },
+        {
+          "file": "/Users/tenoeb01/Desktop/Galaxy Files/pubs_inbox/Cell Biology/Ryoo, Hyung Don/s41467-020-18453-1_anonymous.pdf",
+          "title": null,
+          "year": null,
+          "doi": null
         }
       ]
     },
@@ -1491,7 +1933,38 @@ window.__FACULTY_DATA__ = {
       "experimental_capabilities": [],
       "model_systems": [],
       "focus_groups": [],
-      "publications": []
+      "publications": [
+        {
+          "file": "/Users/tenoeb01/Desktop/Galaxy Files/pubs_inbox/Biochem/Castel, Pau/Cuevas-Navarro_Wagner_Science_Adv_2023_anonymous.pdf",
+          "title": null,
+          "year": null,
+          "doi": null
+        },
+        {
+          "file": "/Users/tenoeb01/Desktop/Galaxy Files/pubs_inbox/Biochem/Castel, Pau/Cuevas-Navarro_eLife_2022_anonymous.pdf",
+          "title": null,
+          "year": null,
+          "doi": null
+        },
+        {
+          "file": "/Users/tenoeb01/Desktop/Galaxy Files/pubs_inbox/Biochem/Castel, Pau/Mozzarelli_MolCell_2024_anonymous.pdf",
+          "title": null,
+          "year": null,
+          "doi": null
+        },
+        {
+          "file": "/Users/tenoeb01/Desktop/Galaxy Files/pubs_inbox/Biochem/Castel, Pau/can-24-3819 (1)_anonymous.pdf",
+          "title": null,
+          "year": null,
+          "doi": null
+        },
+        {
+          "file": "/Users/tenoeb01/Desktop/Galaxy Files/pubs_inbox/Biochem/Castel, Pau/science.adv7088 (1)_anonymous.pdf",
+          "title": null,
+          "year": null,
+          "doi": null
+        }
+      ]
     },
     {
       "source": "intake_form",
@@ -1512,7 +1985,38 @@ window.__FACULTY_DATA__ = {
       "experimental_capabilities": [],
       "model_systems": [],
       "focus_groups": [],
-      "publications": []
+      "publications": [
+        {
+          "file": "/Users/tenoeb01/Desktop/Galaxy Files/pubs_inbox/Biochem/Jones, Drew/PIIS193131282500232X_anonymous.pdf",
+          "title": null,
+          "year": null,
+          "doi": null
+        },
+        {
+          "file": "/Users/tenoeb01/Desktop/Galaxy Files/pubs_inbox/Biochem/Jones, Drew/s41586-025-08996-y_anonymous.pdf",
+          "title": null,
+          "year": null,
+          "doi": null
+        },
+        {
+          "file": "/Users/tenoeb01/Desktop/Galaxy Files/pubs_inbox/Biochem/Jones, Drew/s43018-023-00647-3_anonymous.pdf",
+          "title": null,
+          "year": null,
+          "doi": null
+        },
+        {
+          "file": "/Users/tenoeb01/Desktop/Galaxy Files/pubs_inbox/Biochem/Jones, Drew/sciadv.adj4387_anonymous.pdf",
+          "title": null,
+          "year": null,
+          "doi": null
+        },
+        {
+          "file": "/Users/tenoeb01/Desktop/Galaxy Files/pubs_inbox/Biochem/Jones, Drew/viruses-15-00242-v2_anonymous.pdf",
+          "title": null,
+          "year": null,
+          "doi": null
+        }
+      ]
     },
     {
       "source": "intake_form",
@@ -1531,7 +2035,38 @@ window.__FACULTY_DATA__ = {
       "experimental_capabilities": [],
       "model_systems": [],
       "focus_groups": [],
-      "publications": []
+      "publications": [
+        {
+          "file": "/Users/tenoeb01/Desktop/Galaxy Files/pubs_inbox/Pathology/Meruelo, Daniel/Molecular and metabolic pathways mediating cu_anonymous.pdf",
+          "title": null,
+          "year": null,
+          "doi": null
+        },
+        {
+          "file": "/Users/tenoeb01/Desktop/Galaxy Files/pubs_inbox/Pathology/Meruelo, Daniel/Potent and Targeted Sindbis Virus Platform fo_anonymous.pdf",
+          "title": null,
+          "year": null,
+          "doi": null
+        },
+        {
+          "file": "/Users/tenoeb01/Desktop/Galaxy Files/pubs_inbox/Pathology/Meruelo, Daniel/Sindbis Virus Platform Provides an Oncolytic-_anonymous.pdf",
+          "title": null,
+          "year": null,
+          "doi": null
+        },
+        {
+          "file": "/Users/tenoeb01/Desktop/Galaxy Files/pubs_inbox/Pathology/Meruelo, Daniel/Sindbis Virus Vaccine Platform - A Promising_anonymous.pdf",
+          "title": null,
+          "year": null,
+          "doi": null
+        },
+        {
+          "file": "/Users/tenoeb01/Desktop/Galaxy Files/pubs_inbox/Pathology/Meruelo, Daniel/Sindbis Virus with Anti-OX40 Overcomes the Im_anonymous.pdf",
+          "title": null,
+          "year": null,
+          "doi": null
+        }
+      ]
     },
     {
       "source": "intake_form",
@@ -1550,7 +2085,38 @@ window.__FACULTY_DATA__ = {
       "experimental_capabilities": [],
       "model_systems": [],
       "focus_groups": [],
-      "publications": []
+      "publications": [
+        {
+          "file": "/Users/tenoeb01/Desktop/Galaxy Files/pubs_inbox/Pathology/Possemato, Richard/2017 Alvarez Nature_anonymous.pdf",
+          "title": null,
+          "year": null,
+          "doi": null
+        },
+        {
+          "file": "/Users/tenoeb01/Desktop/Galaxy Files/pubs_inbox/Pathology/Possemato, Richard/2020 Sviderskiy MolCell_anonymous.pdf",
+          "title": null,
+          "year": null,
+          "doi": null
+        },
+        {
+          "file": "/Users/tenoeb01/Desktop/Galaxy Files/pubs_inbox/Pathology/Possemato, Richard/2021 Terzi SciAdvances_anonymous.pdf",
+          "title": null,
+          "year": null,
+          "doi": null
+        },
+        {
+          "file": "/Users/tenoeb01/Desktop/Galaxy Files/pubs_inbox/Pathology/Possemato, Richard/2023 Shin et al Nat Med_anonymous.pdf",
+          "title": null,
+          "year": null,
+          "doi": null
+        },
+        {
+          "file": "/Users/tenoeb01/Desktop/Galaxy Files/pubs_inbox/Pathology/Possemato, Richard/2024_Nam_Nature_Metabolism_anonymous.pdf",
+          "title": null,
+          "year": null,
+          "doi": null
+        }
+      ]
     },
     {
       "source": "intake_form",
@@ -1569,7 +2135,38 @@ window.__FACULTY_DATA__ = {
       "experimental_capabilities": [],
       "model_systems": [],
       "focus_groups": [],
-      "publications": []
+      "publications": [
+        {
+          "file": "/Users/tenoeb01/Desktop/Galaxy Files/pubs_inbox/Pathology/Feske, Stefan/Concepcion2022-Nature Imm copy_anonymous.pdf",
+          "title": null,
+          "year": null,
+          "doi": null
+        },
+        {
+          "file": "/Users/tenoeb01/Desktop/Galaxy Files/pubs_inbox/Pathology/Feske, Stefan/Li Zhong2025-STIM1_Th1 copy_anonymous.pdf",
+          "title": null,
+          "year": null,
+          "doi": null
+        },
+        {
+          "file": "/Users/tenoeb01/Desktop/Galaxy Files/pubs_inbox/Pathology/Feske, Stefan/LiWang2024-STM copy_anonymous.pdf",
+          "title": null,
+          "year": null,
+          "doi": null
+        },
+        {
+          "file": "/Users/tenoeb01/Desktop/Galaxy Files/pubs_inbox/Pathology/Feske, Stefan/Wang2022-ORAI1_asthma copy_anonymous.pdf",
+          "title": null,
+          "year": null,
+          "doi": null
+        },
+        {
+          "file": "/Users/tenoeb01/Desktop/Galaxy Files/pubs_inbox/Pathology/Feske, Stefan/sciimmunol.adq8860 copy_anonymous.pdf",
+          "title": null,
+          "year": null,
+          "doi": null
+        }
+      ]
     },
     {
       "source": "intake_form",
@@ -1588,7 +2185,38 @@ window.__FACULTY_DATA__ = {
       "experimental_capabilities": [],
       "model_systems": [],
       "focus_groups": [],
-      "publications": []
+      "publications": [
+        {
+          "file": "/Users/tenoeb01/Desktop/Galaxy Files/pubs_inbox/Biochem/Pagano, Michele/BACH1 FBXO22 FBXL17_anonymous.pdf",
+          "title": null,
+          "year": null,
+          "doi": null
+        },
+        {
+          "file": "/Users/tenoeb01/Desktop/Galaxy Files/pubs_inbox/Biochem/Pagano, Michele/CycD MMR_anonymous.pdf",
+          "title": null,
+          "year": null,
+          "doi": null
+        },
+        {
+          "file": "/Users/tenoeb01/Desktop/Galaxy Files/pubs_inbox/Biochem/Pagano, Michele/D1 DCAF3_anonymous.pdf",
+          "title": null,
+          "year": null,
+          "doi": null
+        },
+        {
+          "file": "/Users/tenoeb01/Desktop/Galaxy Files/pubs_inbox/Biochem/Pagano, Michele/EMSY_anonymous.pdf",
+          "title": null,
+          "year": null,
+          "doi": null
+        },
+        {
+          "file": "/Users/tenoeb01/Desktop/Galaxy Files/pubs_inbox/Biochem/Pagano, Michele/SKP1_anonymous.pdf",
+          "title": null,
+          "year": null,
+          "doi": null
+        }
+      ]
     },
     {
       "source": "intake_form",
@@ -1608,7 +2236,38 @@ window.__FACULTY_DATA__ = {
       "experimental_capabilities": [],
       "model_systems": [],
       "focus_groups": [],
-      "publications": []
+      "publications": [
+        {
+          "file": "/Users/tenoeb01/Desktop/Galaxy Files/pubs_inbox/Center for Human Genetics and Genomics/Brandes, Nadav/2025.09.05.674459v2.full_anonymous.pdf",
+          "title": null,
+          "year": null,
+          "doi": null
+        },
+        {
+          "file": "/Users/tenoeb01/Desktop/Galaxy Files/pubs_inbox/Center for Human Genetics and Genomics/Brandes, Nadav/btac020_anonymous.pdf",
+          "title": null,
+          "year": null,
+          "doi": null
+        },
+        {
+          "file": "/Users/tenoeb01/Desktop/Galaxy Files/pubs_inbox/Center for Human Genetics and Genomics/Brandes, Nadav/preprints202511.1875.v1_anonymous.pdf",
+          "title": null,
+          "year": null,
+          "doi": null
+        },
+        {
+          "file": "/Users/tenoeb01/Desktop/Galaxy Files/pubs_inbox/Center for Human Genetics and Genomics/Brandes, Nadav/s13059-020-02089-x_anonymous.pdf",
+          "title": null,
+          "year": null,
+          "doi": null
+        },
+        {
+          "file": "/Users/tenoeb01/Desktop/Galaxy Files/pubs_inbox/Center for Human Genetics and Genomics/Brandes, Nadav/s41588-023-01465-0_anonymous.pdf",
+          "title": null,
+          "year": null,
+          "doi": null
+        }
+      ]
     },
     {
       "source": "intake_form",
@@ -1627,7 +2286,38 @@ window.__FACULTY_DATA__ = {
       "experimental_capabilities": [],
       "model_systems": [],
       "focus_groups": [],
-      "publications": []
+      "publications": [
+        {
+          "file": "/Users/tenoeb01/Desktop/Galaxy Files/pubs_inbox/Biochem/Serganov, Alexander/3560.full_anonymous.pdf",
+          "title": null,
+          "year": null,
+          "doi": null
+        },
+        {
+          "file": "/Users/tenoeb01/Desktop/Galaxy Files/pubs_inbox/Biochem/Serganov, Alexander/Ashok_ApaH_paper_anonymous.pdf",
+          "title": null,
+          "year": null,
+          "doi": null
+        },
+        {
+          "file": "/Users/tenoeb01/Desktop/Galaxy Files/pubs_inbox/Biochem/Serganov, Alexander/Shatalin_all published_anonymous.pdf",
+          "title": null,
+          "year": null,
+          "doi": null
+        },
+        {
+          "file": "/Users/tenoeb01/Desktop/Galaxy Files/pubs_inbox/Biochem/Serganov, Alexander/s41589-025-02044-6_anonymous.pdf",
+          "title": null,
+          "year": null,
+          "doi": null
+        },
+        {
+          "file": "/Users/tenoeb01/Desktop/Galaxy Files/pubs_inbox/Biochem/Serganov, Alexander/s41594-023-00948-2_anonymous.pdf",
+          "title": null,
+          "year": null,
+          "doi": null
+        }
+      ]
     },
     {
       "source": "intake_form",
@@ -1725,6 +2415,36 @@ window.__FACULTY_DATA__ = {
             "endometrial carcinoma",
             "biomarkers"
           ]
+        },
+        {
+          "file": "/Users/tenoeb01/Desktop/Galaxy Files/pubs_inbox/ISG/Fenyo, David/1-s2.0-S1535610823002477-main_anonymous.pdf",
+          "title": null,
+          "year": null,
+          "doi": null
+        },
+        {
+          "file": "/Users/tenoeb01/Desktop/Galaxy Files/pubs_inbox/ISG/Fenyo, David/1-s2.0-S2666379123003269-main_anonymous.pdf",
+          "title": null,
+          "year": null,
+          "doi": null
+        },
+        {
+          "file": "/Users/tenoeb01/Desktop/Galaxy Files/pubs_inbox/ISG/Fenyo, David/2025.07.18.665587v1.full_anonymous.pdf",
+          "title": null,
+          "year": null,
+          "doi": null
+        },
+        {
+          "file": "/Users/tenoeb01/Desktop/Galaxy Files/pubs_inbox/ISG/Fenyo, David/2025.10.03.680361.full_anonymous.pdf",
+          "title": null,
+          "year": null,
+          "doi": null
+        },
+        {
+          "file": "/Users/tenoeb01/Desktop/Galaxy Files/pubs_inbox/ISG/Fenyo, David/s41551-025-01348-1_anonymous.pdf",
+          "title": null,
+          "year": null,
+          "doi": null
         }
       ],
       "common_reagents_and_platforms": [
@@ -1775,7 +2495,38 @@ window.__FACULTY_DATA__ = {
       "focus_groups": [
         "Organoids"
       ],
-      "publications": []
+      "publications": [
+        {
+          "file": "/Users/tenoeb01/Desktop/Galaxy Files/pubs_inbox/ISG/Hammell, Molly Gale/2015_Jin_TEtranscripts_anonymous.pdf",
+          "title": null,
+          "year": null,
+          "doi": null
+        },
+        {
+          "file": "/Users/tenoeb01/Desktop/Galaxy Files/pubs_inbox/ISG/Hammell, Molly Gale/2019_Tam_ALSsubtypes_anonymous.pdf",
+          "title": null,
+          "year": null,
+          "doi": null
+        },
+        {
+          "file": "/Users/tenoeb01/Desktop/Galaxy Files/pubs_inbox/ISG/Hammell, Molly Gale/2019_Tam_Review_TransposonsNeurodegeneration_anonymous.pdf",
+          "title": null,
+          "year": null,
+          "doi": null
+        },
+        {
+          "file": "/Users/tenoeb01/Desktop/Galaxy Files/pubs_inbox/ISG/Hammell, Molly Gale/2025_ONeill_ALSsubtypes_anonymous.pdf",
+          "title": null,
+          "year": null,
+          "doi": null
+        },
+        {
+          "file": "/Users/tenoeb01/Desktop/Galaxy Files/pubs_inbox/ISG/Hammell, Molly Gale/Garza_TEs_PD_Interferon_anonymous.pdf",
+          "title": null,
+          "year": null,
+          "doi": null
+        }
+      ]
     },
     {
       "source": "intake_form",
@@ -1840,7 +2591,68 @@ window.__FACULTY_DATA__ = {
       "focus_groups": [
         "Organoids"
       ],
-      "publications": []
+      "publications": [
+        {
+          "file": "/Users/tenoeb01/Desktop/Galaxy Files/pubs_inbox/Cell Biology/Andrea Brand/PIIS1534580722002489_anonymous.pdf",
+          "title": null,
+          "year": null,
+          "doi": null
+        },
+        {
+          "file": "/Users/tenoeb01/Desktop/Galaxy Files/pubs_inbox/Cell Biology/Andrea Brand/PIIS193459092200460X_anonymous.pdf",
+          "title": null,
+          "year": null,
+          "doi": null
+        },
+        {
+          "file": "/Users/tenoeb01/Desktop/Galaxy Files/pubs_inbox/Cell Biology/Andrea Brand/journal.pbio.3001255_anonymous.pdf",
+          "title": null,
+          "year": null,
+          "doi": null
+        },
+        {
+          "file": "/Users/tenoeb01/Desktop/Galaxy Files/pubs_inbox/Cell Biology/Andrea Brand/journal.pbio.3002944 (3)_anonymous.pdf",
+          "title": null,
+          "year": null,
+          "doi": null
+        },
+        {
+          "file": "/Users/tenoeb01/Desktop/Galaxy Files/pubs_inbox/Cell Biology/Andrea Brand/s41556-019-0402-6_anonymous.pdf",
+          "title": null,
+          "year": null,
+          "doi": null
+        },
+        {
+          "file": "/Users/tenoeb01/Desktop/Galaxy Files/pubs_inbox/ORGANOID Faculty/Andrea Brand/PIIS1534580722002489_anonymous.pdf",
+          "title": null,
+          "year": null,
+          "doi": null
+        },
+        {
+          "file": "/Users/tenoeb01/Desktop/Galaxy Files/pubs_inbox/ORGANOID Faculty/Andrea Brand/PIIS193459092200460X_anonymous.pdf",
+          "title": null,
+          "year": null,
+          "doi": null
+        },
+        {
+          "file": "/Users/tenoeb01/Desktop/Galaxy Files/pubs_inbox/ORGANOID Faculty/Andrea Brand/journal.pbio.3001255_anonymous.pdf",
+          "title": null,
+          "year": null,
+          "doi": null
+        },
+        {
+          "file": "/Users/tenoeb01/Desktop/Galaxy Files/pubs_inbox/ORGANOID Faculty/Andrea Brand/journal.pbio.3002944 (3)_anonymous.pdf",
+          "title": null,
+          "year": null,
+          "doi": null
+        },
+        {
+          "file": "/Users/tenoeb01/Desktop/Galaxy Files/pubs_inbox/ORGANOID Faculty/Andrea Brand/s41556-019-0402-6_anonymous.pdf",
+          "title": null,
+          "year": null,
+          "doi": null
+        }
+      ]
     },
     {
       "source": "intake_form",
@@ -1859,7 +2671,38 @@ window.__FACULTY_DATA__ = {
       "experimental_capabilities": [],
       "model_systems": [],
       "focus_groups": [],
-      "publications": []
+      "publications": [
+        {
+          "file": "/Users/tenoeb01/Desktop/Galaxy Files/pubs_inbox/Biochem/David, Gregory/1-s2.0-S0959437X22000235-main_anonymous.pdf",
+          "title": null,
+          "year": null,
+          "doi": null
+        },
+        {
+          "file": "/Users/tenoeb01/Desktop/Galaxy Files/pubs_inbox/Biochem/David, Gregory/MCB.00586-18_anonymous.pdf",
+          "title": null,
+          "year": null,
+          "doi": null
+        },
+        {
+          "file": "/Users/tenoeb01/Desktop/Galaxy Files/pubs_inbox/Biochem/David, Gregory/s13072-024-00526-w_anonymous.pdf",
+          "title": null,
+          "year": null,
+          "doi": null
+        },
+        {
+          "file": "/Users/tenoeb01/Desktop/Galaxy Files/pubs_inbox/Biochem/David, Gregory/s41388-022-02433-4_anonymous.pdf",
+          "title": null,
+          "year": null,
+          "doi": null
+        },
+        {
+          "file": "/Users/tenoeb01/Desktop/Galaxy Files/pubs_inbox/Biochem/David, Gregory/s41556-019-0287-4_anonymous.pdf",
+          "title": null,
+          "year": null,
+          "doi": null
+        }
+      ]
     },
     {
       "source": "intake_form",
@@ -1928,7 +2771,38 @@ window.__FACULTY_DATA__ = {
       "experimental_capabilities": [],
       "model_systems": [],
       "focus_groups": [],
-      "publications": []
+      "publications": [
+        {
+          "file": "/Users/tenoeb01/Desktop/Galaxy Files/pubs_inbox/Cell Biology/Smith, Susan/AzarmNatComm2020_anonymous.pdf",
+          "title": null,
+          "year": null,
+          "doi": null
+        },
+        {
+          "file": "/Users/tenoeb01/Desktop/Galaxy Files/pubs_inbox/Cell Biology/Smith, Susan/DaniloskiG&D2019_anonymous.pdf",
+          "title": null,
+          "year": null,
+          "doi": null
+        },
+        {
+          "file": "/Users/tenoeb01/Desktop/Galaxy Files/pubs_inbox/Cell Biology/Smith, Susan/PerrardNatComm2023_anonymous.pdf",
+          "title": null,
+          "year": null,
+          "doi": null
+        },
+        {
+          "file": "/Users/tenoeb01/Desktop/Galaxy Files/pubs_inbox/Cell Biology/Smith, Susan/PerrardSciAdv2025_anonymous.pdf",
+          "title": null,
+          "year": null,
+          "doi": null
+        },
+        {
+          "file": "/Users/tenoeb01/Desktop/Galaxy Files/pubs_inbox/Cell Biology/Smith, Susan/SzeCellReports2023_anonymous.pdf",
+          "title": null,
+          "year": null,
+          "doi": null
+        }
+      ]
     },
     {
       "source": "intake_form",
@@ -1947,7 +2821,38 @@ window.__FACULTY_DATA__ = {
       "experimental_capabilities": [],
       "model_systems": [],
       "focus_groups": [],
-      "publications": []
+      "publications": [
+        {
+          "file": "/Users/tenoeb01/Desktop/Galaxy Files/pubs_inbox/Pathology/Skok, Jane/Binding domain mutations provide insight into CTCF’s relationship with chromatin and its contribution to gene regulation.pdf",
+          "title": null,
+          "year": null,
+          "doi": null
+        },
+        {
+          "file": "/Users/tenoeb01/Desktop/Galaxy Files/pubs_inbox/Pathology/Skok, Jane/Defining the relative and combined contributi_anonymous.pdf",
+          "title": null,
+          "year": null,
+          "doi": null
+        },
+        {
+          "file": "/Users/tenoeb01/Desktop/Galaxy Files/pubs_inbox/Pathology/Skok, Jane/MethNet- a robust approach to identify regulatory hubs and their distal targets from cancer data.pdf",
+          "title": null,
+          "year": null,
+          "doi": null
+        },
+        {
+          "file": "/Users/tenoeb01/Desktop/Galaxy Files/pubs_inbox/Pathology/Skok, Jane/NSD2 overexpression drives clustered chromati_anonymous.pdf",
+          "title": null,
+          "year": null,
+          "doi": null
+        },
+        {
+          "file": "/Users/tenoeb01/Desktop/Galaxy Files/pubs_inbox/Pathology/Skok, Jane/Phasing chromatin heterogeneity- single-molecule footprinting links 1 CTCF topology to 2 transcriptional output.pdf",
+          "title": null,
+          "year": null,
+          "doi": null
+        }
+      ]
     },
     {
       "source": "iehe",
@@ -2495,6 +3400,12 @@ window.__FACULTY_DATA__ = {
           "title": null,
           "year": null,
           "doi": null
+        },
+        {
+          "file": "/Users/tenoeb01/Desktop/Galaxy Files/pubs_inbox/IEHE/John Ross Rizzo/John Ross RMulti-faceted sensory substitution using wearable technology for curb alerting a pilot investigation with persons with blindness and.pdf",
+          "title": null,
+          "year": null,
+          "doi": null
         }
       ]
     },
@@ -3003,6 +3914,12 @@ window.__FACULTY_DATA__ = {
           "title": null,
           "year": null,
           "doi": null
+        },
+        {
+          "file": "/Users/tenoeb01/Desktop/Galaxy Files/pubs_inbox/IEHE/Stephen Wall/cv-2160780.pdf",
+          "title": null,
+          "year": null,
+          "doi": null
         }
       ]
     },
@@ -3277,6 +4194,12 @@ window.__FACULTY_DATA__ = {
         },
         {
           "file": "/Users/tenoeb01/Desktop/Galaxy Files/pubs_inbox/IEHE/Collin Popp/Collin_Popp-_JAMANO_2022.pdf",
+          "title": null,
+          "year": null,
+          "doi": null
+        },
+        {
+          "file": "/Users/tenoeb01/Desktop/Galaxy Files/pubs_inbox/IEHE/Collin Popp/Collin_Popp-Diaz-Rizzolo_NutrDiabetes_2024.pdf",
           "title": null,
           "year": null,
           "doi": null
