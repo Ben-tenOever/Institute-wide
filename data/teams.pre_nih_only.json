@@ -621,6 +621,33 @@
     ]
   },
   {
+    "opportunity_id": "94d31f26-eb6c-4997-a666-756a4f4ed386",
+    "opportunity_number": "PD-25-345Y",
+    "opportunity_title": "Fire Science Innovations through Research and Education",
+    "agency_name": "U.S. National Science Foundation",
+    "open_date": null,
+    "close_date": "2026-04-07",
+    "opp_status": "posted",
+    "award_ceiling": null,
+    "estimated_total_program_funding": null,
+    "expected_number_of_awards": null,
+    "team_size_category": "small",
+    "team_members": "David Fenyo; Nadav Brandes",
+    "proposed_title": "Fire Science Innovations through Research and Education collaborative plan",
+    "rationale": "This opportunity emphasizes workforce development and dissemination in fire science innovations through research and education. David Fenyo contributes expertise in in my research i apply mathematical, statistical and computational methods to provide a detailed understanding of the dy. Nadav Brandes contributes expertise in large language models (llms) have revolutionized artificial intelligence (ai). Together, the team is positioned to deliver a rigorous plan that advances innovations , education , research while meeting U.S. National Science Foundation expectations for impact and reproducibility.",
+    "aims_or_projects": "Aim 1: define the central questions, datasets, and success metrics for fire science innovations through research and education with input from all team members.\nAim 2: test key mechanisms or drivers in fire science innovations through research and education using complementary models, assays, and analytical approaches.\nAim 3: validate robustness across settings, publish reproducible workflows, and create a dissemination plan for broad community use.",
+    "opportunity_url": "http://www.nsf.gov/funding/pgm_summ.jsp?pims_id=506410",
+    "confidence_score": 98.0,
+    "suggested_title": "PD-25-345Y",
+    "synopsis": "This application would address Fire Science Innovations through Research and Education by integrating complementary expertise across the team. The collaboration is centered on data, wide, research, large and is designed to deliver a cohesive, milestone-driven set of outcomes.",
+    "rationale_detailed": "Faculty were selected for strong topical overlap with the opportunity and complementary, non-redundant strengths. Key contributions: Nadav Brandes: Large Language Models (LLMs) have revolutionized Artificial intelligence (AI). Despite being originally designed for text, these models turn out to be incredibly effective for biological sequences like DNA and proteins.; David Fenyo: In my research I apply mathematical, statistical and computational methods to provide a detailed understanding of the dynamics of cellular processes through the integration and visualization of data from multiple technologies—including mass spectrometry, next generation sequencing, and microscopy to provide a deeper understanding of biological systems. My focus is the analysis of analytical measurements: the estimation of the information content of these measurements from different experimental designs, and the optimal use of such information to yield statistically meaningful answers to biological questions..",
+    "suggested_aims": [
+      "Aim 1: Define the core problem and success metrics in data, wide, research, large using established models and datasets.",
+      "Aim 2: Develop and optimize an integrated approach leveraging each investigator’s strengths to meet FOA requirements.",
+      "Aim 3: Validate outcomes in the most relevant system and deliver a clear mechanistic or translational endpoint aligned to the announcement."
+    ]
+  },
+  {
     "opportunity_id": "c0870ec4-90de-4aa7-8ab4-381603a9539c",
     "opportunity_number": "PAR-25-323",
     "opportunity_title": "Stephen I. Katz Early Stage Investigator Research Project Grant (R01 Basic Experimental Studies with Human Required)",
@@ -832,6 +859,33 @@
     "rationale_detailed": "Faculty were selected for strong topical overlap with the opportunity and complementary, non-redundant strengths. Key contributions: Catherine Pei-ju Lu: My lab aims to build a comprehensive framework for understanding stem cell biology of the skin, from development to disease. Our research will center on three interconnected themes:  Stem Cell Plasticity and Regeneration: We will investigate the molecular and cellular mechanisms by which sweat gland progenitors re-enter developmental programs after injury, with the goal of identifying pathways that can be therapeutically targeted to enhance regeneration.; Hakhamanesh Mostafavi: My lab studies the genetic basis of complex human traits and diseases. We use statistical genetics, population genetics, and large-scale genomic data to understand how genetic variation influences molecular and physiological traits, how evolutionary forces shape patterns of genetic variation, and how to draw biological insight from genetic association studies..",
     "suggested_aims": [
       "Aim 1: Define the core problem and success metrics in understanding, expression, natural, data using established models and datasets.",
+      "Aim 2: Develop and optimize an integrated approach leveraging each investigator’s strengths to meet FOA requirements.",
+      "Aim 3: Validate outcomes in the most relevant system and deliver a clear mechanistic or translational endpoint aligned to the announcement."
+    ]
+  },
+  {
+    "opportunity_id": "963edd71-e71b-426b-a395-5fd8fbc53d11",
+    "opportunity_number": "NNH24ZDA002N",
+    "opportunity_title": "Topical Workshops, Symposiums, and Conferences (TWSC-24) in Space and Earth Sciences and Technology",
+    "agency_name": "NASA Headquarters",
+    "open_date": null,
+    "close_date": "2026-11-30",
+    "opp_status": "posted",
+    "award_ceiling": null,
+    "estimated_total_program_funding": null,
+    "expected_number_of_awards": null,
+    "team_size_category": "small",
+    "team_members": "David Fenyo; Drew Jones",
+    "proposed_title": "Topical Workshops, Symposiums, and Conferences in Space and collaborative plan",
+    "rationale": "This opportunity supports hypothesis driven work in topical workshops, symposiums, and conferences in space and earth sciences and technology. David Fenyo contributes expertise in in my research i apply mathematical, statistical and computational methods to provide a detailed understanding of the dy. Drew Jones contributes expertise in the ongoing theme of my work is the invention or adaptation of advanced chromatography and mass spectrometry technology . Together, the team is positioned to deliver a rigorous plan that advances conferences , symposiums , technology while meeting NASA Headquarters expectations for impact and reproducibility.",
+    "aims_or_projects": "Aim 1: define the central questions, datasets, and success metrics for topical workshops, symposiums, and conferences in space and earth sciences with input from all team members.\nAim 2: develop and benchmark a scalable tool or platform for topical workshops, symposiums, and conferences in space and earth sciences that leverages the complementary strengths of the team.\nAim 3: validate robustness across settings, publish reproducible workflows, and create a dissemination plan for broad community use.",
+    "opportunity_url": "https://go.nasa.gov/twsc24nofo",
+    "confidence_score": 43.0,
+    "suggested_title": "NNH24ZDA002N",
+    "synopsis": "This application would address Topical Workshops, Symposiums, and Conferences (TWSC-24) in Space and Earth Sciences and Technology by integrating complementary expertise across the team. The collaboration is centered on research, large, work, such and is designed to deliver a cohesive, milestone-driven set of outcomes.",
+    "rationale_detailed": "Faculty were selected for strong topical overlap with the opportunity and complementary, non-redundant strengths. Key contributions: Drew Jones: The ongoing theme of my work is the invention or adaptation of advanced chromatography and mass spectrometry technology to tackle challenging analytical problems with a translational potential. Methodologically, much of my science is designed around using high throughput LC-MS as the analytical readout of biochemical experiments.; David Fenyo: In my research I apply mathematical, statistical and computational methods to provide a detailed understanding of the dynamics of cellular processes through the integration and visualization of data from multiple technologies—including mass spectrometry, next generation sequencing, and microscopy to provide a deeper understanding of biological systems. My focus is the analysis of analytical measurements: the estimation of the information content of these measurements from different experimental designs, and the optimal use of such information to yield statistically meaningful answers to biological questions..",
+    "suggested_aims": [
+      "Aim 1: Define the core problem and success metrics in research, large, work, such using established models and datasets.",
       "Aim 2: Develop and optimize an integrated approach leveraging each investigator’s strengths to meet FOA requirements.",
       "Aim 3: Validate outcomes in the most relevant system and deliver a clear mechanistic or translational endpoint aligned to the announcement."
     ]
@@ -1183,6 +1237,33 @@
     "rationale_detailed": "Faculty were selected for strong topical overlap with the opportunity and complementary, non-redundant strengths. Key contributions: esteban o mazzoni: We are passionate about understanding how cells acquire the functions required by a multicellular organism like the complex human body. We aim to understand how these cells change and develop to a degree that we can control for future clinical applications.; Adam J. Ratner; MD.",
     "suggested_aims": [
       "Aim 1: Define the core problem and success metrics in innovative, technologies, pace, all using established models and datasets.",
+      "Aim 2: Develop and optimize an integrated approach leveraging each investigator’s strengths to meet FOA requirements.",
+      "Aim 3: Validate outcomes in the most relevant system and deliver a clear mechanistic or translational endpoint aligned to the announcement."
+    ]
+  },
+  {
+    "opportunity_id": "17f217b6-2106-4de0-a9db-2c13c1b58262",
+    "opportunity_number": "P23AS00132",
+    "opportunity_title": "NPS Cooperative Ecosystems Studies Units (CESU) Master Cooperative Agreements",
+    "agency_name": "National Park Service",
+    "open_date": null,
+    "close_date": "2027-12-31",
+    "opp_status": "posted",
+    "award_ceiling": 0.0,
+    "estimated_total_program_funding": null,
+    "expected_number_of_awards": null,
+    "team_size_category": "small",
+    "team_members": "Richard Possemato; Liat Shenhav, PhD",
+    "proposed_title": "NPS Cooperative Ecosystems Studies Units Master Cooperative Agreements collaborative plan",
+    "rationale": "This opportunity supports hypothesis driven work in nps cooperative ecosystems studies units master cooperative agreements. Richard Possemato contributes expertise in i am an associate professor in the department of pathology at nyu school of medicine and co-leader of the cancer cell bi. Liat Shenhav, PhD contributes expertise in systems microbiology. Together, the team is positioned to deliver a rigorous plan that advances cooperative , agreements , ecosystems while meeting National Park Service expectations for impact and reproducibility.",
+    "aims_or_projects": "Aim 1: define the central questions, datasets, and success metrics for nps cooperative ecosystems studies units master cooperative agreements with input from all team members.\nAim 2: test key mechanisms or drivers in nps cooperative ecosystems studies units master cooperative agreements using complementary models, assays, and analytical approaches.\nAim 3: validate robustness across settings, publish reproducible workflows, and create a dissemination plan for broad community use.",
+    "opportunity_url": "https://www.grants.gov/search-grants?query=P23AS00132",
+    "confidence_score": 18.0,
+    "suggested_title": "P23AS00132",
+    "synopsis": "This application would address NPS Cooperative Ecosystems Studies Units (CESU) Master Cooperative Agreements by integrating complementary expertise across the team. The collaboration is centered on upon, application, collaborative, students and is designed to deliver a cohesive, milestone-driven set of outcomes.",
+    "rationale_detailed": "Faculty were selected for strong topical overlap with the opportunity and complementary, non-redundant strengths. Key contributions: Richard Possemato: I am an Associate Professor in the Department of Pathology at NYU School of Medicine and Co-Leader of the Cancer Cell Biology Program at the Perlmutter Cancer Center. Our research program is focused on identifying metabolic alterations in cancer and the tumor microenvironment, focusing on triple-negative breast cancer and alterations in the metabolism of transformed and immune cells.; Liat Shenhav; PhD.",
+    "suggested_aims": [
+      "Aim 1: Define the core problem and success metrics in upon, application, collaborative, students using established models and datasets.",
       "Aim 2: Develop and optimize an integrated approach leveraging each investigator’s strengths to meet FOA requirements.",
       "Aim 3: Validate outcomes in the most relevant system and deliver a clear mechanistic or translational endpoint aligned to the announcement."
     ]
